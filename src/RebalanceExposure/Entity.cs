@@ -3,7 +3,7 @@
     public class Entity
     {
         public string EntityId { get; }
-        public decimal Exposure { get; set; } // Allow to be modified during redistribution
+        public decimal Exposure { get; set; } 
         public decimal Capacity { get; }
         public int Priority { get; }
 
